@@ -1,3 +1,4 @@
+x=int(input())
 a=sorted(list(map(int,input().split())))
 l=[]
 for i in range (0,len(a)-1,1):
