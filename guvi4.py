@@ -15,7 +15,7 @@ def leastFrequent(arr, n):
         min_count = curr_count
         res = arr[n - 1]
     return res
-
+b=int(input())
 arr = list(map(int,input().split()))
 n = len(arr)
 print(leastFrequent(arr, n)) 
